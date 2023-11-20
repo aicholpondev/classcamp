@@ -34,7 +34,18 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
+
+    animation: header 2s alternate;
 }
+@keyframes header {
+    0%{
+        transform: translateY(-1200px);
+    }
+   100%{
+       transform: translateX(0);
+   }
+}
+
 
 .header-logo h1 {
     color: black;
@@ -250,31 +261,36 @@ body {
     background: #121118;
     padding: 180px 0;
 }
-.add-text h1{
-    color:#FFFFFF ;
+
+.add-text h1 {
+    color: #FFFFFF;
     font-size: 54px;
     font-weight: 400;
     line-height: 70px;
     width: 404px;
     padding-bottom: 38px;
 }
-.add-text p{
-    color: rgba(255,255,255,0.50);
+
+.add-text p {
+    color: rgba(255, 255, 255, 0.50);
     font-size: 27px;
     font-weight: 400;
     line-height: 37px;
     width: 490px;
 }
+
 .add-text p span {
     color: #FFFFFF;
     font-weight: 700;
 }
+
 .add {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.add-block{
+
+.add-block {
     background: #27252e;
     width: 571px;
     height: 367px;
@@ -284,7 +300,8 @@ body {
     justify-content: center;
     align-items: center;
 }
-.add-block-one{
+
+.add-block-one {
     -webkit-box-shadow: 1px -1px 15px 6px rgba(80, 51, 34, 0.26);
     -moz-box-shadow: 1px -1px 15px 6px rgba(80, 51, 34, 0.26);
     box-shadow: 1px -1px 15px 6px rgba(80, 51, 34, 0.26);
@@ -298,6 +315,7 @@ body {
     justify-content: space-around;
     align-items: start;
 }
+
 .add-block-icon {
     width: 40px;
     height: 40px;
@@ -309,29 +327,34 @@ body {
     justify-content: center;
     align-items: center;
 }
-.add-block-text h3{
+
+.add-block-text h3 {
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 500;
 }
-.add-block-text h6{
+
+.add-block-text h6 {
     padding-top: 8px;
     font-size: 16px;
     font-weight: 400;
-    color:rgba(255,255,255,0.50);
+    color: rgba(255, 255, 255, 0.50);
 }
-.add-block-one button{
+
+.add-block-one button {
     padding: 15px 25px;
     background: #fc4355;
     border-radius: 15px;
 }
+
 /*add end*/
 
-#link{
+#link {
     padding: 180px 0;
     background: #121118;
 }
-.link-text h1{
+
+.link-text h1 {
     color: white;
     font-size: 58px;
     font-weight: 400;
@@ -339,24 +362,27 @@ body {
     width: 445px;
     padding-bottom: 38px;
 }
-.link-text p{
-    color: rgba(255,255,255,0.50);
+
+.link-text p {
+    color: rgba(255, 255, 255, 0.50);
     font-size: 25px;
     font-weight: 400;
     line-height: 37px;
     width: 500px;
 }
-.link-text p b{
+
+.link-text p b {
     color: white;
 
 }
-.link{
+
+.link {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.link-block{
-    position: relative;
+
+.link-block {
     width: 562px;
     height: 350px;
     background: #1d1c27;
@@ -364,8 +390,11 @@ body {
     display: flex;
     justify-content: end;
     align-items: end;
+    position: relative;
+
 }
-.link-block a div{
+
+.link-block a div {
     width: 75px;
     height: 280px;
     color: white;
@@ -378,7 +407,8 @@ body {
     bottom: 0;
     transition: .4s;
 }
-.link-blocks a div:hover {
+
+.link-block a div:hover {
     transform: translateY(-50px);
     border-radius: 20px;
     z-index: 2;
@@ -392,47 +422,56 @@ body {
     border-radius: 20px 0 0 0;
     right: 420px;
 }
+
 .instagram {
     background: #bb002f;
     border-radius: 20px 0 0 0;
     right: 360px;
 }
+
 .twitch {
     background: #6300bb;
     border-radius: 20px 0 0 0;
     right: 300px;
 }
+
 .tiktok {
     background: black;
     border-radius: 20px 0 0 0;
     right: 240px;
 }
+
 .twitter {
     background: deepskyblue;
     border-radius: 20px 0 0 0;
     right: 180px;
 }
+
 .linkedin {
     background: midnightblue;
     border-radius: 20px 0 0 0;
     right: 120px;
 }
+
 .mail {
     background: darkslategray;
     border-radius: 20px 0 0 0;
     right: 60px;
 }
+
 .whatsapp {
     background: limegreen;
     border-radius: 20px 0 30px 0;
     right: 0;
 }
+
 /*card start*/
 
 #card {
     padding: 130px 0;
     background: #121118;
 }
+
 .card h1 {
     color: #FFF;
     text-align: center;
@@ -440,12 +479,14 @@ body {
     font-weight: 400;
     line-height: 83px;
 }
+
 .line {
     width: 120px;
     height: 5px;
     margin: 38px auto;
     background: #FF4343;
 }
+
 .card p {
     color: rgba(255, 255, 255, 0.50);
     text-align: center;
@@ -454,15 +495,18 @@ body {
     line-height: 37px;
     padding-bottom: 88px;
 }
-.card-general{
+
+.card-general {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .card-block {
     width: 19%;
     position: relative;
 }
+
 .card-block img {
     width: 100%;
 }
@@ -474,6 +518,7 @@ body {
     font-weight: 400;
     line-height: 34px;
 }
+
 .card-block-text h4 {
     color: #FFF;
     text-align: center;
@@ -482,6 +527,7 @@ body {
     line-height: 24px;
     padding: 10px 0 5px 0;
 }
+
 .card-block-text h5 {
     color: rgba(255, 255, 255, 0.65);
     text-align: center;
@@ -489,6 +535,7 @@ body {
     font-weight: 400;
     padding-bottom: 50px;
 }
+
 .card-block-text {
 
     width: 100%;
@@ -501,10 +548,12 @@ body {
     justify-content: end;
 
 }
+
 .card-block-text {
     display: none;
 }
-.card-block:hover > .card-block-text{
+
+.card-block:hover > .card-block-text {
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -515,35 +564,300 @@ body {
 .card-block:hover > .card-block-text h5 {
     animation: text .4s alternate linear;
 }
+
 @keyframes text {
-    0%{
+    0% {
         transform: translateY(50px);
     }
 
 }
+
 /*card end*/
-#offer{
-    padding: 175px;
+#offer {
+    padding: 180px 0;
     background: #121118;;
 }
-.offer h6{
+
+.offer h3 {
     color: #8BFFB0;
-    text-align: center;
     font-size: 22px;
     font-weight: 400;
-    line-height: 24px;
 }
+
 .offer h1 {
     color: #FFF;
-    text-align: center;
     font-size: 58px;
     font-weight: 400;
     line-height: 83px;
+    width: 787px;
+    padding: 21px 0 32px 0;
 }
+
 .offer p {
     color: rgba(255, 255, 255, 0.50);
-    text-align: center;
     font-size: 27px;
     font-weight: 400;
     line-height: 39px;
+    width: 904px;
 }
+.offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.offer img{
+    margin-top: 70px;
+    animation: offer 2s infinite linear;
+}
+@keyframes offer {
+    0%{
+        opacity: 0;
+    }
+
+}
+/*what start*/
+#what {
+    width: 100%;
+    height: 433px;
+    background: #121118;
+
+}
+
+.what {
+    width: 1120px;
+    height: 433px;
+    border-radius: 30px;
+    background: #1D1B24;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+
+
+}
+
+.what h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 63px;
+    font-weight: 400;
+    line-height: 91px;
+
+}
+
+.what p {
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-size: 27px;
+    font-weight: 400;
+    padding: 65px 0;
+
+}
+
+.what button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    background: #FF4343;
+    padding: 5px 30px;
+    border: 2px solid #FF4343;
+
+}
+
+.what button:hover {
+    background: transparent;
+    border: 2px solid #FF4343;
+    color: #FF4343;
+}
+
+.what button ion-icon {
+    width: 50px;
+    padding-left: 19px;
+    height: 52px;
+}
+/*what emd*/
+/*lesson start*/
+#lesson {
+    background: url("../img/what-img.png") no-repeat center/cover;
+    min-height: 60vh;
+}
+
+
+.lesson{
+    width: 1440px;
+    height: 432px;
+    background: linear-gradient(180deg, #1D1B24 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.lesson h2 {
+    padding: 148px 0 0 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 48px;
+    justify-content: center;;
+}
+
+.lesson p {
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+}
+/*lesson end*/
+
+
+
+/*courses ctart*/
+#cour {
+    background: #0A0A0A;
+
+}
+
+.cour-block-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cour h2 {
+    color: #FFF;
+    width: 479px;
+    font-size: 58px;
+    font-weight: 400;
+    padding-top: 170px;
+    padding-bottom: 109px;
+}
+
+.cour-one h6{
+    color: #FFF;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+}
+.cour-one a {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.cour-block {
+    display: flex;
+    align-items: center;
+}
+
+.cour-text {
+    width: 369px;
+    height: 449px;
+    background: rgba(139, 255, 176, 0.77);
+    padding: 30px 30px;
+}
+
+.cour-text h6{
+    color: rgb(149, 254, 193);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.cour-text h3 {
+    width: 209px;
+    color: #FFF;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.cour-text p {
+    width: 302px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.cour-text button {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #8c2bcc;
+    padding: 10px 25px;
+    border: 2px solid #8c2bcc;
+    flex-direction: row-reverse;
+
+}
+.cour-text button:hover {
+    background: transparent;
+    border: 2px solid #8c2bcc;
+    color: #8c2bcc;
+}
+
+.cour-text ion-icon {
+    padding-left: 15px;
+
+}
+
+.cour-block h6{
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+.cour-block a {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+/*courses end*/
+
+/*product start*/
+
+#product{
+    background: #000;
+}
+
+.product{
+    display: flex;
+    letter-spacing: 1px;
+    font-weight: 300;
+    padding: 120px 0 120px 0;
+    justify-content: start;
+    align-items: flex-start;
+    color: white;
+}
+.product-general{
+
+    padding-left: 175px;
+}
+.product a {
+    width: 1290px;
+    color: white;
+    cursor: pointer;
+}
+.product a:hover{
+    text-decoration-line: underline;
+    color: royalblue;
+}
+.product-general-one {
+    padding:  0 175px;
+}
+
+.product-general-ion-icon {
+    font-size: 25px;
+    padding-left: 150px;
+}
+
+/*product end*/
